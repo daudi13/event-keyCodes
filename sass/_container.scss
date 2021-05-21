@@ -1,0 +1,49 @@
+
+.container {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px 100px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 800px;
+    text-align: center;
+    height: auto;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    filter: blur(-10px);
+
+    .showCode {
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+    .meanings {
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+
+    .box {
+        padding: 10px 15px;
+        width: 150px;
+
+        p {
+            background: lightblue;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .box-meaning {
+            background: #fff;
+            height: 40px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0 0 4px 4px;
+
+        }
+    }
+}
+}
+
+
+

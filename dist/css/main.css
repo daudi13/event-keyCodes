@@ -1,1 +1,81 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 50px 100px;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 800px;
+  text-align: center;
+  height: auto;
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  -webkit-filter: blur(-10px);
+          filter: blur(-10px);
+}
+
+.container .showCode {
+  font-size: 75px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.container .meanings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .meanings .box {
+  padding: 10px 15px;
+  width: 150px;
+}
+
+.container .meanings .box p {
+  background: lightblue;
+  border-radius: 4px 4px 0 0;
+}
+
+.container .meanings .box .box-meaning {
+  background: #fff;
+  height: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0 0 4px 4px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background: cadetblue;
+}
+/*# sourceMappingURL=main.css.map */
