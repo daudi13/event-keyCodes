@@ -57,6 +57,12 @@
   border-radius: 0 0 4px 4px;
 }
 
+.one {
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 5px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -73,6 +79,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
