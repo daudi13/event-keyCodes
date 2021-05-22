@@ -3,7 +3,7 @@ const theContainer = document.querySelector('body');
 
 window.addEventListener('keydown', (e) => {
     theContainer.innerHTML = `<div class="container">
-        <div class="showCode" id="showCode">${e.code}</div>
+        <div class="showCode" id="showCode">${e.keyCode}</div>
         <div class="meanings">
             <div class="box">
                 <p>event.Key</p>
@@ -12,13 +12,13 @@ window.addEventListener('keydown', (e) => {
                 </div>
             </div>
             <div class="box">
-                <p>event.Key</p>
+                <p>event.KeyCode</p>
                 <div class="box-meaning">
                     <div id="eventKeyCode" class="event">${e.keyCode}</div>
                 </div>
             </div>
             <div class="box">
-                <p>event.Key</p>
+                <p>event.code</p>
                 <div class="box-meaning">
                     <div id="eventcode" class="event">${e.code}</div>
                 </div>
